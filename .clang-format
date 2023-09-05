@@ -1,0 +1,9 @@
+BasedOnStyle: llvm
+IndentWidth: 2
+AllowShortFunctionsOnASingleLine: None
+KeepEmptyLinesAtTheStartOfBlocks: false
+BreakBeforeBraces: Linux
+AlignAfterOpenBracket: Align
+ColumnLimit: 0
+InsertBraces: true
+BreakBeforeBinaryOperators: All
