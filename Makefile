@@ -4,8 +4,8 @@ CLIBS = -I/lib/uthash-master/include
 
 all: solution update
 
-solution: main.c common.h
-	$(CC) $(CFLAGS) -o solution main.c $(CLIBS)
+solution: solution.c common.h
+	$(CC) $(CFLAGS) -o solution solution.c $(CLIBS)
 
 update: update.c
 	$(CC) $(CFLAGS) -o update update.c
